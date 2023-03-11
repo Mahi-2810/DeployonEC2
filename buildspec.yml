@@ -9,7 +9,6 @@ phases:
       - echo Nothing to do in the pre_build phase...    
   build:
     commands:
-      - pip3 install
       - pysimplegui install
 artifacts:
   type: zip
