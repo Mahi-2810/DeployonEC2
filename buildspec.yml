@@ -9,7 +9,7 @@ phases:
       - echo Nothing to do in the pre_build phase...    
   build:
     commands:
-      - pysimplegui install
+      - echo Nothing to do in the build phase...
 artifacts:
   type: zip
   paths:
